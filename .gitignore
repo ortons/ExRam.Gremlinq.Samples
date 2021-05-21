@@ -6,6 +6,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+.idea/
 
 # dotnet core
 project.lock.json
