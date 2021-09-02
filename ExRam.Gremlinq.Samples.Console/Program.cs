@@ -1,11 +1,12 @@
-﻿#define GremlinServer
+﻿//#define GremlinServer
 //#define CosmosDB
-//#define AWSNeptune
+#define AWSNeptune
 //#define JanusGraph
 
 using System;
 using System.Threading.Tasks;
 using ExRam.Gremlinq.Core;
+using ExRam.Gremlinq.Core.Models;
 using ExRam.Gremlinq.Providers.WebSocket;
 using ExRam.Gremlinq.Samples.Shared;
 using Microsoft.Extensions.Logging;
