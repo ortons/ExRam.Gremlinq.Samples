@@ -5,11 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
-    <PackageReference Include="ExRam.Gremlinq.Core" Version="9.0.0-preview.115" />
-=======
     <PackageReference Include="ExRam.Gremlinq.Core" Version="8.6.0" />
->>>>>>> 76cd4cc382d8d65b98a790560f8ba89fd8a6824e
+    <PackageReference Include="ObjectDumper.NET" Version="3.3.7" />
   </ItemGroup>
 
 </Project>

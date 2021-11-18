@@ -31,8 +31,8 @@ namespace ExRam.Gremlinq.Samples.AspNet.Controllers
                 AutoFlush = true
             };
 
-            await new Logic(_source, writer)
-                .Run();
+            // await new Logic(_source, writer).Run();
+            await new Logic(_source, writer).RunJustQueries();
         }
     }
 }

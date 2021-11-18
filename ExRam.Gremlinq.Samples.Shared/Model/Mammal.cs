@@ -6,6 +6,7 @@ namespace ExRam.Gremlinq.Samples.Shared
     {
         public int Age { get; set; }
 
-        public VertexProperty<string, NameMeta>? Name { get; set; }
+        //public VertexProperty<string, NameMeta>? Name { get; set; }
+        public string? Name { get; set; }
     }
 }
